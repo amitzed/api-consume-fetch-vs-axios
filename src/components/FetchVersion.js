@@ -6,7 +6,7 @@ class FetchVersion extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/todos')
+    fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
     .then(res => res.json())
     .then((data) => {
       this.setState({
@@ -27,6 +27,15 @@ class FetchVersion extends React.Component {
           {this.state.items.map((item, index) => (
             <div key={index}>
               <h2>{item.title}</h2>
+              <h3>
+                {
+                  item.completed
+                  ?
+                  <span style={{color: 'blue'}}>Done</span>
+                  :
+                  <span style={{color: 'red'}}>Not Done</span>
+                }
+              </h3>
               <hr />
             </div>
           ))}
