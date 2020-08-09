@@ -10,8 +10,8 @@ class AxiosVersion extends React.Component {
         <div>
           <h2>Title</h2>
           <h3>Thumbnail</h3>
+          <hr />
         </div>
-        <hr />
       </div>
     )
   }
