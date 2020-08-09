@@ -25,12 +25,13 @@ class AxiosVersion extends React.Component {
         AxiosVersion
         <h1 style={{display: 'flex', justifyContent: 'center'}}>Images</h1>
         <hr />
-        <div>
-          {this.state.images.map((image, index) => (
-            <h2>{image.title}</h2>
-          ))}
-          <hr />
-        </div>
+        {this.state.images.map((image, index) => (
+          <div key={index}>
+            <h2>Title: {image.title}</h2>
+            <img src={image.thumbnailUrl} alt={image.id} />
+          </div>
+        ))}
+        <hr />
       </div>
     )
   }

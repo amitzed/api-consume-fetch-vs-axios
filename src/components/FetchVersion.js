@@ -26,7 +26,7 @@ class FetchVersion extends React.Component {
         <div>
           {this.state.items.map((item, index) => (
             <div key={index}>
-              <h2>{item.title}</h2>
+              <h2>Item: {item.title}</h2>
               <h3>
                 {
                   item.completed
