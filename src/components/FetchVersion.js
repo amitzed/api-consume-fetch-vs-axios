@@ -24,10 +24,13 @@ class FetchVersion extends React.Component {
         <h1 style={{display: 'flex', justifyContent: 'center'}}>Checklist</h1>
         <hr />
         <div>
-          <h2>Title</h2>
-          <h3>Completed</h3>
+          {this.state.items.map((item, index) => (
+            <div key={index}>
+              <h2>{item.title}</h2>
+              <hr />
+            </div>
+          ))}
         </div>
-        <hr />
       </div>
     )
   }
