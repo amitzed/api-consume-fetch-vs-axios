@@ -5,6 +5,13 @@ class AxiosVersion extends React.Component {
     return (
       <div>
         AxiosVersion
+        <h1 style={{display: 'flex', justifyContent: 'center'}}>Images</h1>
+        <hr />
+        <div>
+          <h2>Title</h2>
+          <h3>Thumbnail</h3>
+        </div>
+        <hr />
       </div>
     )
   }
