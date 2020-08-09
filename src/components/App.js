@@ -1,9 +1,13 @@
 import React from 'react';
 
+import AxiosVersion from './AxiosVersion';
+import FetchVersion from './FetchVersion';
+
 const App = () => {
   return (
     <div>
-      App
+      <FetchVersion />
+      <AxiosVersion />
     </div>
   )
 }
