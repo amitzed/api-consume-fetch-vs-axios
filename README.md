@@ -1,5 +1,5 @@
 ## API Consumption: FETCH vs AXIOS
-## API Consumption using FEtCH on one API endpoint and AXIOS on a second API endpoint.
+## API Consumption using FETCH on one API endpoint and AXIOS on a second API endpoint.
 
 ### NO styling applied, this app is for simple testing with a publicly available API (so API is not concealed).
 
