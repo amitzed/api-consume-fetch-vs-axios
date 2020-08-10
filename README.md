@@ -1,4 +1,4 @@
-## [API Consumption: FETCH vs AXIOS]('https://axios-vs-fetch.herokuapp.com/') <= click this link to view live Heroku deployment.
+## [API Consumption: FETCH vs AXIOS](https://axios-vs-fetch.herokuapp.com/) <= click this link to view live Heroku deployment.
 ## Using FETCH on one API endpoint and AXIOS on a second API endpoint.
 
 ### NO styling applied, this app is for simple testing with a publicly available API (so API is not concealed).
