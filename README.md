@@ -3,7 +3,7 @@
 
 ### NO styling applied, this app is for simple testing with a publicly available API (so API is not concealed).
 
-### React Router used for navigation
+### React Router used for navigation.
 
 <hr />
 <br/>
